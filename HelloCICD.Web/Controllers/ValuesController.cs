@@ -8,6 +8,7 @@ namespace HelloCICD.Web.Controllers
     public class ValuesController : Controller
     {
         public readonly IProductService productService;
+
         public readonly IShoppingCartService shoppingCartService;
 
         public ValuesController(IProductService productService, IShoppingCartService shoppingCartService)
